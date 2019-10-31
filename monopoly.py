@@ -1,6 +1,7 @@
+import sys
 import numpy as np
 from numpy.matlib import zeros
-np.set_printoptions(threshold=np.nan)
+np.set_printoptions(threshold=sys.maxsize)
 
 states = list(range(40))
 names = ['Go', 'Mediterranean Avenue', 'Community Chest 1',
